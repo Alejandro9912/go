@@ -59,7 +59,6 @@ func ReadArch(){
 		fmt.Println("Error al leer el archivo " + err.Error())
 		return
 	}
-
 	scanner := bufio.NewScanner(archivo)
 	for scanner.Scan(){
 		registro := scanner.Text()

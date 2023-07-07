@@ -1,6 +1,8 @@
 package main
 
-import "github.com/Alejandro9912/go/files"
+import (
+	"github.com/Alejandro9912/go/funciones"
+)
 
 func main() {
 	/* fmt.Println("Hola Mundo")
@@ -34,6 +36,8 @@ func main() {
 	ejercicios.TenMultip()
 	files.RecordTable()
 	files.SumTable()
-	files.LeoArchivo()*/
+	files.LeoArchivo()
 	files.ReadArch()
+	funciones.Calculos()*/
+	funciones.LlamarClosure()
 }

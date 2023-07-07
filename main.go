@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/funciones"
+	"github.com/Alejandro9912/go/arrays_slices"
 )
 
 func main() {
@@ -38,6 +38,10 @@ func main() {
 	files.SumTable()
 	files.LeoArchivo()
 	files.ReadArch()
-	funciones.Calculos()*/
 	funciones.LlamarClosure()
+	funciones.Exponencia(2)
+	arrays_slices.ShowArray()
+	funciones.Calculos()
+	arrays_slices.ShowSlice()*/
+	arrays_slices.Capacidad()
 }

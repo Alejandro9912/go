@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/Alejandro9912/go/ejercicios"
-)
+import "github.com/Alejandro9912/go/files"
 
 func main() {
 	/* fmt.Println("Hola Mundo")
@@ -32,6 +30,10 @@ func main() {
 	fmt.Println(texto)
 
 	teclado.AddNumbers()
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 	ejercicios.TenMultip()
+	files.RecordTable()
+	files.SumTable()
+	files.LeoArchivo()*/
+	files.ReadArch()
 }

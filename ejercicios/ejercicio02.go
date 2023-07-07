@@ -7,8 +7,9 @@ import (
 	"strconv"
 )
 
-func TenMultip() {
+func TenMultip() string {
 	scanner := bufio.NewScanner(os.Stdin)
+	var texto string
 
 	fmt.Println("Ingrese el numero: ")
 	if scanner.Scan() {
@@ -19,8 +20,10 @@ func TenMultip() {
 		} else {
 			for i := 1; i <= 10; i++ {
 				//fmt.Printf("%d * %d = %d \n", number,i,number*i)
-				fmt.Println(i, "*", number, "=", number*i)
+				texto += fmt.Sprintln(i, "*", number, "=", number*i)
 			}
 		}
 	}
+	fmt.Println(texto)
+	return texto
 }

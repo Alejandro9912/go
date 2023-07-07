@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"reflect"
-	"github.com/Alejandro9912/go/ejercicios"
+	"github.com/Alejandro9912/go/teclado"
 )
 
 func main() {
@@ -27,9 +25,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os) // %s define que ingreso un String
-	} */
+	}
 
 	numero, texto := ejercicios.IntString("fffff")
 	fmt.Println(numero, reflect.TypeOf(numero))
 	fmt.Println(texto)
+	*/
+	teclado.AddNumbers()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/mapas"
+	"github.com/Alejandro9912/go/users"
 )
 
 func main() {
@@ -43,6 +43,7 @@ func main() {
 	arrays_slices.ShowArray()
 	funciones.Calculos()
 	arrays_slices.ShowSlice()
-	arrays_slices.Capacidad()*/
-	mapas.ShowMap()
+	arrays_slices.Capacidad()
+	mapas.ShowMap()*/
+	users.AltaUser()
 }

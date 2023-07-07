@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/Alejandro9912/go/iteraciones"
 	"github.com/Alejandro9912/go/teclado"
 )
 
@@ -32,4 +33,5 @@ func main() {
 	fmt.Println(texto)
 	*/
 	teclado.AddNumbers()
+	iteraciones.Iterar()
 }

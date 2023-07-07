@@ -18,6 +18,7 @@ func TenMultip() {
 			TenMultip()
 		} else {
 			for i := 1; i <= 10; i++ {
+				//fmt.Printf("%d * %d = %d \n", number,i,number*i)
 				fmt.Println(i, "*", number, "=", number*i)
 			}
 		}

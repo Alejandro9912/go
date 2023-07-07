@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/iteraciones"
-	"github.com/Alejandro9912/go/teclado"
+	"github.com/Alejandro9912/go/ejercicios"
 )
 
 func main() {
@@ -31,7 +30,8 @@ func main() {
 	numero, texto := ejercicios.IntString("fffff")
 	fmt.Println(numero, reflect.TypeOf(numero))
 	fmt.Println(texto)
-	*/
+
 	teclado.AddNumbers()
-	iteraciones.Iterar()
+	iteraciones.Iterar()*/
+	ejercicios.TenMultip()
 }

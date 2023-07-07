@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/arrays_slices"
+	"github.com/Alejandro9912/go/mapas"
 )
 
 func main() {
@@ -42,6 +42,7 @@ func main() {
 	funciones.Exponencia(2)
 	arrays_slices.ShowArray()
 	funciones.Calculos()
-	arrays_slices.ShowSlice()*/
-	arrays_slices.Capacidad()
+	arrays_slices.ShowSlice()
+	arrays_slices.Capacidad()*/
+	mapas.ShowMap()
 }

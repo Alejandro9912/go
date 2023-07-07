@@ -29,7 +29,7 @@ func main() {
 		fmt.Printf("%s \n", os) // %s define que ingreso un String
 	} */
 
-	numero, texto := ejercicios.IntString("50")
+	numero, texto := ejercicios.IntString("fffff")
 	fmt.Println(numero, reflect.TypeOf(numero))
 	fmt.Println(texto)
 }

@@ -8,7 +8,7 @@ func IntString(texto string) (int, string) {
 	myInt, err := strconv.Atoi(texto)
 
 	if err != nil {
-		return 0, "Hubo un error"
+		return 0, "Hubo un error, " + err.Error()
 	}
 
 	if myInt > 100 {

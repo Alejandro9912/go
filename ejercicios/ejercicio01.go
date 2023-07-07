@@ -1,18 +1,19 @@
 package ejercicios
 
 import (
-	"reflect"
 	"strconv"
 )
 
-func IntString (texto string) (int,string){
+func IntString(texto string) (int, string) {
 	myInt, err := strconv.Atoi(texto)
-	reflect.TypeOf(err)
-	var myString string
-	if myInt > 100{
-		myString = "Es mayor a 100"
-	}else{
-		myString = "Es menor a 100"
+
+	if err != nil {
+		return 0, "Hubo un error"
 	}
-	return myInt, myString
+
+	if myInt > 100 {
+		return myInt, "Es mayor a 100"
+	} else {
+		return myInt, "Es menor a 100"
+	}
 }

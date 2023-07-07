@@ -3,14 +3,11 @@ package main
 import (
 	"fmt"
 	"reflect"
-	"runtime"
-
 	"github.com/Alejandro9912/go/ejercicios"
-	"github.com/Alejandro9912/go/variables"
 )
 
 func main() {
-	fmt.Println("Hola Mundo")
+	/* fmt.Println("Hola Mundo")
 	variables.MuestroEnteros()
 	variables.RestoVariables()
 	estado, texto := variables.ConviertoTexto(1588)
@@ -30,7 +27,7 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os) // %s define que ingreso un String
-	}
+	} */
 
 	numero, texto := ejercicios.IntString("50")
 	fmt.Println(numero, reflect.TypeOf(numero))

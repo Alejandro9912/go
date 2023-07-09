@@ -16,3 +16,6 @@ func (h *Mujer) Pensar() {
 func (h *Mujer) Sexo() string {
 	return "Mujer"
 }
+func (h *Mujer) EstaVivo() bool {
+	return true
+}

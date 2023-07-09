@@ -22,3 +22,6 @@ func (h *Hombre) Pensar() {
 func (h *Hombre) Sexo() string {
 	return "Hombre"
 }
+func (h *Hombre) EstaVivo() bool {
+	return true
+}

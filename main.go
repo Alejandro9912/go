@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/Alejandro9912/go/goroutines"
+	"github.com/Alejandro9912/go/webserver"
 )
 
 func main() {
@@ -55,9 +53,12 @@ func main() {
 	Maria := new(models.Mujer)
 	ejerinterfaces.HumanosRespirando(Maria)
 	deferPanic.VemosDefer()
-	deferPanic.EjemploPanic()*/
-	go goroutines.MiNombreLento("Juan Calderon")
-	fmt.Println("Estoy Aqui")
-	var x string
-	fmt.Scanln(&x)
+	deferPanic.EjemploPanic()
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLento("Juan Calderon", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy Aqui")*/
+	webserver.MiWebServer()
 }

@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/deferPanic"
+	"fmt"
+
+	"github.com/Alejandro9912/go/goroutines"
 )
 
 func main() {
@@ -51,7 +53,11 @@ func main() {
 	ejerinterfaces.HumanosRespirando(Pedro)
 
 	Maria := new(models.Mujer)
-	ejerinterfaces.HumanosRespirando(Maria)*/
+	ejerinterfaces.HumanosRespirando(Maria)
 	deferPanic.VemosDefer()
-	deferPanic.EjemploPanic()
+	deferPanic.EjemploPanic()*/
+	go goroutines.MiNombreLento("Juan Calderon")
+	fmt.Println("Estoy Aqui")
+	var x string
+	fmt.Scanln(&x)
 }

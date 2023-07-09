@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/Alejandro9912/go/users"
+	ejerinterfaces "github.com/Alejandro9912/go/ejerInterfaces"
+	"github.com/Alejandro9912/go/models"
 )
 
 func main() {
@@ -44,6 +45,12 @@ func main() {
 	funciones.Calculos()
 	arrays_slices.ShowSlice()
 	arrays_slices.Capacidad()
-	mapas.ShowMap()*/
-	users.AltaUser()
+	mapas.ShowMap()
+	users.AltaUser()*/
+
+	Pedro := new(models.Hombre)
+	ejerinterfaces.HumanosRespirando(Pedro)
+
+	Maria := new(models.Mujer)
+	ejerinterfaces.HumanosRespirando(Maria)
 }

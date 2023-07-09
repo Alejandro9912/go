@@ -1,8 +1,7 @@
 package main
 
 import (
-	ejerinterfaces "github.com/Alejandro9912/go/ejerInterfaces"
-	"github.com/Alejandro9912/go/models"
+	"github.com/Alejandro9912/go/deferPanic"
 )
 
 func main() {
@@ -46,11 +45,13 @@ func main() {
 	arrays_slices.ShowSlice()
 	arrays_slices.Capacidad()
 	mapas.ShowMap()
-	users.AltaUser()*/
+	users.AltaUser()
 
 	Pedro := new(models.Hombre)
 	ejerinterfaces.HumanosRespirando(Pedro)
 
 	Maria := new(models.Mujer)
-	ejerinterfaces.HumanosRespirando(Maria)
+	ejerinterfaces.HumanosRespirando(Maria)*/
+	deferPanic.VemosDefer()
+	deferPanic.EjemploPanic()
 }
